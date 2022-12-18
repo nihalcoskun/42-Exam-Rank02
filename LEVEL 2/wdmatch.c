@@ -40,11 +40,11 @@ int ft_strlen(char *str)
     {
         count++;
     }
+
     return(count);
 }
 
-
-void wdmatch(char *s1,char *s2)
+void wdmatch(char *s1, char *s2)
 {
     int index1 = 0;
     int index2 = 0;
@@ -53,7 +53,7 @@ void wdmatch(char *s1,char *s2)
     {
         if(s1[index1] == s2[index2])
         {
-            index1++;
+            index1++;      
         }
         index2++;
     }
